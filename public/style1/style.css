@@ -1,0 +1,250 @@
+header{
+    background-color: #999999;
+    margin-top: -22px;
+    
+
+}
+
+header>div{
+    display: flex;
+    flex-direction: row;
+    
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+.experience-details{
+    color: #b0b0b0;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: stretch;
+    margin: 0 auto;
+    width:960px;
+   
+    
+}
+
+.skill{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.skills{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.skills-primary{
+    margin-bottom: 5px;
+    border-top: 1px solid  #cccccc;
+    margin-top: 15px;
+}
+
+.skills-primary::before{
+    content: 'Main' ;
+}
+
+.skills-primary .skill{
+    background-color: #cccccc;
+    color: #efefef;
+    border: 3px solid #cccccc;
+}
+
+.skills-primary .skill:nth-child(1) span{
+    background-color: #ff0000;
+    width:50%;
+    display: inline-block;
+}
+.skills-primary .skill:nth-child(2) span{
+    background-color: #ff0000;
+    width:30%;
+    display: inline-block;
+}
+
+.skills-primary .skill:nth-child(3) span{
+    background-color: #ff0000;
+    width:10%;
+    display: inline-block;
+}
+
+
+.skills-secondary::before{
+    content: 'Other' ;
+}
+
+.skills-secondary .skill{
+    background-color: #dbdbdb;
+    color: #efefef;
+    border: 3px solid  #dbdbdb;
+}
+
+
+.skills-secondary .skill:nth-child(1) span{
+    background-color: #ff4b4b;
+    width:90%;
+    display: inline-block;
+}
+
+.skills-secondary .skill:nth-child(2) span{
+    background-color: #ff4b4b;
+    width:50%;
+    display: inline-block;
+    
+}
+
+.skills-secondary .skill:nth-child(3) span{
+    background-color: #ff4b4b;
+    width:70%;
+    display: inline-block;
+}
+
+.experience-type{
+    color: #ff1515;
+}
+
+.experience-institution{
+    color: #ff6b6b;
+}
+
+.experience-date-separator{
+    color:	#ff6b6b;
+}
+
+dl {
+    width: 100%;
+    padding: 0;
+    margin: 0
+  }
+  dt {
+    float: left;
+    width: 17%;
+    background: red;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  dd {
+    float: left;
+    width: 83%;
+    background: black;
+    padding: 0;
+    margin: 0;
+    color: red;
+  }
+
+  dd a{
+      color: red;
+      text-decoration: none;
+  }
+
+#contact{
+    margin-top: -1053px;
+    width: 132.6%;
+    line-height: 1.5;
+}
+
+hgroup{
+    color: red;
+}
+
+#about h3:before{
+    content: "🔴️";  
+}
+
+#about p{
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+    
+
+#competencies h3:before{
+    content: "🔴️";
+}
+
+#experiences h3:before{
+    content: "🔴️";
+   
+}
+
+#education h3:before{
+    content: "🔴️";
+}
+
+#hobbies h3:before{
+    content: "🔴️";
+}
+
+#hobbies ul{
+    border-top: 1px solid #cccccc;
+    padding-top: 15px;
+}
+
+.experience p{
+    padding-right: 10px;
+}
+
+.experience:nth-child(2){
+    border-top: 1px solid  #cccccc ;
+}
+
+
+
+@media screen and (max-width: 980px){
+    #contact{
+        margin-top: 0;
+        width: auto;
+
+    }
+
+    .contacts{
+        border-top: 1px solid #cccccc;
+        padding-top: 10px;
+    }
+
+    dt {
+        float: left;
+        width: 25%;
+        background: red;
+        padding: 0;
+        margin: 0;
+        color: white;
+      }
+
+      dd {
+        float: left;
+        width: 75%;
+        background: white;
+        padding: 0;
+        margin: 0;
+        color: black;
+      }
+
+    
+    header>div{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 10px;
+     }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    header{
+        width: auto;
+    }
+
+   
+    
+}
